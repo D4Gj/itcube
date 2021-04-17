@@ -1,3 +1,4 @@
+# -*- coding: utf8 -*-
 from os import system
 import platform
 from textwrap import wrap
@@ -260,7 +261,7 @@ class GameData():
 
     def game_over2(self):
         write('С интересом развинчиваю технику, краем глаза замечая, что забыл отключить колонку от сети. Бабах!!! Что-то ярко сверкнуло и бумкнуло. Кажется, это конец. Медленно оседаю в обморок.')
-        print('\nПопробуйте снова.')
+        print('Попробуйте снова.')
         enter()
         return 'start'
 
