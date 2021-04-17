@@ -254,7 +254,8 @@ class GameData():
         if choice == 1:
             system(clcmd)
             write('Нет, слишком слабенький.')
-            choice = selection('Разобрать японские колонки, чтобы достать магнит из динамика', 'Отклеить магниты с водяных счетчиков')
+            enter()
+            return 'magnet'
         if choice == 2:
             return 'game_over2'
         if choice == 3:
